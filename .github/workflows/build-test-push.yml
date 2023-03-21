@@ -14,7 +14,6 @@ jobs:
       # Build Image
       - name: Build Docker Image
         run: docker build . --file Dockerfile -t thebluemitsu/ma-temps-service:latest
-      
 
       # Push tag
       - name: Login into Docker Hub
